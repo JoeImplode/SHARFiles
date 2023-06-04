@@ -1,0 +1,56 @@
+Put pddidx8.dll in 
+YourFileDir\Simpsons\game\cd\PC
+
+put afxres.h in
+YourFileDir\Simpsons\game\build\win32
+
+-DO NOT- REDISTRIBUTE THESE FILES.
+
+Have fun :)
+Joe
+
+Additional tips/things you may have missed:
+
+Additional dependencies for Release mode which can be found in SRR2 Properties -> Linker -> Input -> Additional Dependencies should look like the following:
+
+odbc32.lib
+odbccp32.lib
+dsound.lib
+dxguid.lib
+winmm.lib
+dinput8.lib
+wsock32.lib
+simwr.lib
+radsoundwr.lib
+pngwr.lib
+pure3dwr.lib
+zlibwr.lib
+choreowr.lib
+poserwr.lib
+radcontentwr.lib
+radcorewr.lib
+radmathwr.lib
+radmoviewr.lib
+radmusicwr.lib
+radscriptwr.lib
+scroobywr.lib
+
+(copy paste these in)
+
+These are all the file Directories for the Additional library directories in SRR2 -> Properties -> Linker -> General:
+YourFileDir:\Simpsons\game\libs\sim\lib
+YourFileDir:\Simpsons\game\libs\radsound\lib
+YourFileDir:\Simpsons\game\libs\pure3d\build\lib
+YourFileDir:\Simpsons\game\libs\choreo\lib
+YourFileDir:\Simpsons\game\libs\poser\lib
+YourFileDir:\Simpsons\game\libs\radcontent\lib
+YourFileDir:\Simpsons\game\libs\radcore\lib
+YourFileDir:\Simpsons\game\libs\radmath\lib
+YourFileDir:\Simpsons\game\libs\radmovie\lib
+YourFileDir:\Simpsons\game\libs\radmusic\lib
+YourFileDir:\Simpsons\game\libs\radscript\lib
+YourFileDir:\Simpsons\game\libs\scrooby\lib
+
+If you're stuck on anything, re-watch the video and see if you missed a step/did something wrong.
+
+-DO NOT- REDISTRIBUTE THESE FILES!
